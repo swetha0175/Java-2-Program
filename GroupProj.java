@@ -30,7 +30,7 @@ public class GroupProj extends JFrame {
     {
         super.paint(g);
 
-// Clouds & mountain → Sakura 
+// Clouds & mountain
         g.setColor(new Color(255,255,255));//cloudssss
         g.fillOval(140,50,70,50);
         g.fillOval(85,70,70,50);
@@ -48,13 +48,13 @@ public class GroupProj extends JFrame {
         g.fillOval(910,110,140,100);
         g.fillOval(1030,140,120,70);//cloud3
         
-        g.fillOval(1340,180,70,50); //cloud 4 - sebrina 
+        g.fillOval(1340,180,70,50); 
         g.fillOval(1285,200,70,50);
         g.fillOval(1370,190,140,100);
         g.fillOval(1310,210,140,100);
         g.fillOval(1430,240,120,70);
         
-        // Stars in the sky --> Swetha 
+        // Stars in the sky --> My Part (Swetha) 
     g.setColor(Color.WHITE);
         
     for (int i=0; i<500; i=i+1)
@@ -66,7 +66,7 @@ public class GroupProj extends JFrame {
       g.fillOval(starX, starY, starD, starD);
     }
     
-    // End of Stars in the sky --> swetha 
+    // End of Stars in the sky --> My Part (Swetha)
     
         g.setColor (new Color(252,218,154));//MOUNTAIN1
         int[] xCoordinates2 = {800,1200,1800};
@@ -82,7 +82,7 @@ public class GroupProj extends JFrame {
         int[] yCoordinates5 = {500,300,500};
         g.fillPolygon(xCoordinates5,yCoordinates5,3);
 
-        // sebrina
+        
         int[] xCoordinates12 = {600,1500,2200}; //addition for big screen user
         int[] yCoordinates12 = {500,300,500};
         g.fillPolygon(xCoordinates12,yCoordinates12,3);
@@ -116,7 +116,7 @@ public class GroupProj extends JFrame {
         int[] yCoordinates11 = {500,400,500};
         g.fillPolygon(xCoordinates11,yCoordinates11,3);
     
-        //Grass- sebrina 
+        
         g.setColor (new Color(151, 190, 73 ));  /*Green Option: //136, 205, 73 //160, 205, 73       //151, 205, 73 //172, 202, 20 */
         g.fillRect (0,500,2000,800);
         
@@ -291,7 +291,7 @@ public class GroupProj extends JFrame {
 
 // START HOUSE 1 OVERALL 
         
-        // House 1--> swetha 
+        // House 1--> My Part (Swetha)
         Graphics2D l = (Graphics2D) g;// help to bold the rectangle border line
         l.setStroke(new BasicStroke(2));
         g.setColor(new Color(0,0,0));
@@ -301,7 +301,7 @@ public class GroupProj extends JFrame {
         g.fillRect(200,370,225,220);
         g.fillRect(426,440,130,150);
         
-        //roof --> swetha 
+        //roof --> My Part (Swetha) 
         g.setColor(new Color(153, 0, 0));// color of the roof 
         int[] xCoordinates01 = {160, 313,470};
         int[] yCoordinates01 = {379,290,379};
@@ -315,7 +315,7 @@ public class GroupProj extends JFrame {
         g.setColor(Color.black);// border color of the second roof 
         g.drawPolygon(xCoordinates02,yCoordinates02,3);// outline black of the second roof 
         
-        // door of the house --> swetha 
+        // door of the house --> My Part (Swetha) 
         l.setStroke(new BasicStroke(3));
         g.drawRect(285,499,55,90);// door
         g.setColor(Color.red);// door color 
@@ -331,7 +331,7 @@ public class GroupProj extends JFrame {
         g.fillOval(332,533,6,10); // color for the door handle 
         g.drawOval(332,533,6,10);// for the door handle 
         
-        // windows for side house --> swetha 
+        // windows for side house --> My Part (Swetha) 
         g.setColor(Color.yellow);
         g.fillRect(465,490,50,50);
         g.setColor(Color.black);
@@ -341,7 +341,7 @@ public class GroupProj extends JFrame {
         
         // START HOUSE 2 OVERALL 
         
-        // House 2 --> swetha 
+        // House 2 --> My Part (Swetha)
         l.setStroke(new BasicStroke(1));
         g.setColor(new Color(0,0,0));
         g.drawRect(890,395,145,125);
@@ -350,7 +350,7 @@ public class GroupProj extends JFrame {
         g.fillRect(890,395,145,125);
         g.fillRect(1036,440,70,80);
         
-        // house 2 roof --> swetha 
+        // house 2 roof --> My Part (Swetha)
         g.setColor(new Color (0,0,153));// color of the roof 
         int[] xCoordinates0002 = {878, 960,1050};
         int[] yCoordinates0002 = {395,350,395};
@@ -364,7 +364,6 @@ public class GroupProj extends JFrame {
         g.setColor(Color.black);// border color of the second roof 
         g.drawPolygon(xCoordinates0003,yCoordinates0003,3);// outline black of the second roof
 
-   //house 2 window - sebrina 
         g.setColor (Color.yellow);
         g.fillRect (900,405,35,35);
         g.setColor (Color.black);
@@ -396,7 +395,7 @@ public class GroupProj extends JFrame {
         g.drawLine (1007,460,1007,495); //vertical line 
         g.drawLine (990,477,1025,477);//horizontal line
 
-        // door house 2 --> Swetha
+        // door house 2 --> My Part (Swetha)
         l.setStroke ( new BasicStroke (1)) ;
         g.setColor(new Color(51,51,255));// color for door 
         g.fillRect (945,465,35,55); // coordinates for the door
@@ -412,7 +411,6 @@ public class GroupProj extends JFrame {
         g.drawLine(953,452,963, 465);// pattern on top of the door 
         g.drawLine(973,450,963,465);// pattern on top of the door 
 
-        // side house window --> Rose
         l.setStroke(new BasicStroke (1));
         g.setColor( new Color (255,255,115));
         g.fillRect(1055,460,35,35);
@@ -421,15 +419,13 @@ public class GroupProj extends JFrame {
         g.drawLine(1073,495,1073,460);
         g.drawLine(1055,478,1090,478);
 
-         // Window 1 - Caine
         g.setColor(Color.yellow);// windows for main house
         g.fillRect(220,490,50,50);
         g.setColor(Color.black);
         g.drawRect(220,490,50,50);
         g.drawLine(245,490,245,538);
         g.drawLine(220,515,270,515);
-        
-        // Window 2 - Caine
+
         g.setColor(Color.yellow);// windows for main house
         g.fillRect(220,400,50,50);
         g.setColor(Color.black);
@@ -437,7 +433,6 @@ public class GroupProj extends JFrame {
         g.drawLine(245,400,245,448);
         g.drawLine(220,425,270,425);
         
-        // Window 3 - Caine
         g.setColor(Color.yellow);
         g.fillRect(287,400,50,50);
         g.setColor(Color.black);
@@ -445,7 +440,6 @@ public class GroupProj extends JFrame {
         g.drawLine(312,400,312,448);
         g.drawLine(287,425,337,425);
         
-        // Window 4 - Caine 
         g.setColor(Color.yellow);
         g.fillRect(355,400,50,50);
         g.setColor(Color.black);
@@ -453,7 +447,6 @@ public class GroupProj extends JFrame {
         g.drawLine(380,400,380,448);
         g.drawLine(355,425,405,425);
         
-        // Window 5 - Caine 
         g.setColor(Color.yellow);
         g.fillRect(355,490,50,50);
         g.setColor(Color.black);
@@ -461,15 +454,10 @@ public class GroupProj extends JFrame {
         g.drawLine(380,490,380,538);
         g.drawLine(355,515,405,515);
         
-        // moon - Caine
         g.setColor(new Color(169,169,169));
         g.fillOval(1200,60,100,100);//First circle, same color as the background
         g.setColor(new Color(19,24,98));//Color of the second circle
         g.fillOval(1190,50,100,100);//Second circle being overlapped by the first circle
-        
-        //Pathway and mailbox of house 1 & 2→ Tim / Nay sothyRath
-         
-        // Mailbox house no 1 → Tim
          
         g.setColor(Color.black);
         g.fillRect(440,650,5,70);
@@ -479,7 +467,6 @@ public class GroupProj extends JFrame {
         g.fillRect(460,620,3,18);
         g.fillRect(460,620,10,6);
         
-        //Mailbox house no 2 → tim
          g.setColor(Color.black);
         g.fillRect(1040,550,5,70);
         g.fillRect(1020,530,50,20);
@@ -488,7 +475,6 @@ public class GroupProj extends JFrame {
         g.fillRect(1060,520,3,18);
         g.fillRect(1060,520,10,6);
 
-        // Pathway of house no1 → tim
         g.setColor(new Color(128,128,128));
         g.fillOval(275,600,40,20);
         g.fillOval(230,630,45,20);
@@ -497,7 +483,6 @@ public class GroupProj extends JFrame {
         g.fillOval(280,660,60,25);
         g.fillOval(220,735,110,40); 
 
-        // Pathway of house no2 → tim
         g.setColor(new Color(128,128,128));
         g.fillOval(940,535,40,25);
         g.fillOval(895,560,45,30);
